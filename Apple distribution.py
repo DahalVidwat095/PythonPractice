@@ -4,6 +4,6 @@ The program reads the numbers N and K.It should print the two answers for the qu
 N=int(input("enter the  number of students:"))
 K=int(input("enter the number of apples:"))
 get=K//N
-remain=K-(K//N)
-print(f"The number of apples each student gets is {get}")
-print(f"The number of remaining apples is {remain}")
+remain=K%N
+print(f"The number of apples each student gets is {get}.")
+print(f"The number of remaining apples is {remain}.")
